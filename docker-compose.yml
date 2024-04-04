@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mathapi:
-    image: davidwahid/mathapi-test
+    image: hojiakbaranorboyev/mathapi
     container_name: "mathapi"
     restart: always
     ports:
