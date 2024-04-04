@@ -63,5 +63,5 @@ jobs:
           username: ${{ secrets.HOST_USERNAME }}
           port: 22
           script: |
-            cd ~/app
+            cd ~/apps
             docker-compose up -d --no-deps --build mathapi
